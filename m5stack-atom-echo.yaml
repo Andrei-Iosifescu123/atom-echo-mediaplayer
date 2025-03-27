@@ -212,6 +212,7 @@ binary_sensor:
 
 light:
   - platform: esp32_rmt_led_strip
+    rmt_symbols: 96
     id: led
     name: None
     disabled_by_default: true
@@ -222,7 +223,6 @@ light:
     num_leds: 1
     rgb_order: grb
     rmt_channel: 0
-    rmt_symbols: 96
     effects:
       - pulse:
           name: "Slow Pulse"
