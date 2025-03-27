@@ -7,9 +7,10 @@ esphome:
   project:
     name: m5stack.atom-echo-voice-assistant
     version: "24.7.24"
-  framework:
+framework:
     type: esp-idf
-    version: "4.4.0"
+    version: 4.4.8
+    platform_version: 5.4.0
 
 esp32:
   board: m5stack-atom
